@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "bot-verif"
+version = "0.1.0"
+description = "Bot Discord de vérification (style Double Counter)"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"discord.py" = "^2.3.2"
+aiohttp = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
